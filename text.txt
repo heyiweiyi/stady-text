@@ -1,0 +1,18 @@
+let ary = [12, 23, 34, 45];
+console.log(typeof ary); //=> "object"
+console.dir(ary);
+/* 
+ *  ary = {
+ *      0:12,
+ *      1:23,
+ *      2:34,
+ *      3:45,
+ *      length:4
+ * }
+ *  数字作为索引（key属性名）
+ *  length代表长度
+ * 
+ *  ary[0] 根据索引获取指定项的内容
+ *  ary.length 获取数组的长度
+ *  ary.length-1 最后一项的索引
+ */
